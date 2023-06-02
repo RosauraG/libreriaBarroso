@@ -74,21 +74,16 @@ nav a:hover{
 }
 
 .productos li:hover{
-    border-color:#8C2641;
+    border-color:blue;
+    border-style: dotted;
+    transform: scale(1.2);
+
 }
 
 .productos li:active{
-    border-color:#732634;
-}
+    border-color:blue;
+    }
 
-.productos h2{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.productos li:hover h2{
-    font-size: 33px;
-}
 
 .producto-descripcion{
     font-size: 18px;
